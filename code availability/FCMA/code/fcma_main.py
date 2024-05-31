@@ -23,32 +23,31 @@
 |*******Created on 2022.04.11                                              |
 |*******Version 1.7                                                        |
 |*******@author: Xia Pan                                                   |
-|*******@unit: School of Atmospheric Sciences, Sun Yat-Sen University      |
-|*******@E-mail: 1136382869@qq.com                                         |
+|*******@unit: School of Atmospheric Sciences, Sun Yat-Sen University      |                                      |
 ----------------------------------------------------------------------------
 """
 '''
 P01 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P14 P15 P16 P17 P18
 the type of surface: 
 land---01, desert---02;                                                       ppp
-01.  : 'Yuhuan A'            28.163  121.32             01        0.83951    0.80876
-02.  : 'Lanshan Reservoir'   30.027  121.626            01        0.82163    0.78457
-03.  : 'Xihe'                31.76   113.515            01        0.84634    0.80622
-04.  : 'Xiangshui JS'        34.401  119.951            01        0.80444    0.75464
-05.  : 'Kenli A'             37.551  118.827            01   $    0.75424    0.72774
-06.  : 'Yanchi'              37.982  106.999            02   $$   0.75562    0.72311
-07.  : 'Yuyang D'            38.81   109.692            02   $$   0.75466    0.72742
-08.  : 'Balagong IV'         40.185  107.036            02   $$   0.71366    0.66822
-09.  : 'Chengde'             40.89   118.623            01   $$$  0.69799    0.68006
-10.  : 'Changde'             46.245  125.006            01   $$$  0.65591    0.60803
-11.  : 'ZGH'                 40.299  109.71             02   $$   0.72742    0.69346
-12.  : 'Beijing'             39.8    116.4667           
-13.  : 'Baoshang'            31.3833 121.45
-14.  : 'Guangzhou'           23.2167 113.4833
-15.  : 'Wuhan'               30.6    114.05 
-16.  : 'Dongshan'            31.0833 120.4333
-17.  : 'Hangzhou'            30.2333 120.1667
-18.  : 'Shapingbai'          29.5833 106.4667
+01.  : 'Yuhuan A'            
+02.  : 'Lanshan Reservoir'   
+03.  : 'Xihe'                
+04.  : 'Xiangshui JS'        
+05.  : 'Kenli A'             
+06.  : 'Yanchi'              
+07.  : 'Yuyang D'            
+08.  : 'Balagong IV'         
+09.  : 'Chengde'             
+10.  : 'Changde'             
+11.  : 'ZGH'                 
+12.  : 'Beijing'                        
+13.  : 'Baoshang'            
+14.  : 'Guangzhou'           
+15.  : 'Wuhan'                
+16.  : 'Dongshan'            
+17.  : 'Hangzhou'            
+18.  : 'Shapingbai'          
 '''
 import os
 import sys
