@@ -69,23 +69,14 @@ def make_cld(confdnc_l, size):
     cld_data = np.zeros([size, size])
     for i in range(0, size):
         for j in range(0, size):
-            if confdnc_l[i, j] <= 0.86:
+            if confdnc_l[i, j] <= 0.66:
                 cld_data[i, j] = 0  # cloudy
-            if 0.86 <= confdnc_l[i, j] < 0.95:
+            if 0.66 < confdnc_l[i, j] <= 0.95:
                 cld_data[i, j] = 1  # prob cloudy
-            if 0.95 <= confdnc_l[i, j] < 1:
+            if 0.95 < confdnc_l[i, j] <= 0.99:
                 cld_data[i, j] = 2  # prob land clear
-            if confdnc_l[i, j] == 1:
+            if confdnc_l[i, j] > 0.99:
                 cld_data[i, j] = 3  # land clear
-
-            # if confdnc_l[i, j] <= 0.9:
-            #     cld_data[i, j] = 0  # cloudy
-            # if 0.9 < confdnc_l[i, j] <= 0.975:
-            #     cld_data[i, j] = 1  # prob cloudy
-            # if 0.975 < confdnc_l[i, j] < 1:
-            #     cld_data[i, j] = 2  # prob land clear
-            # if confdnc_l[i, j] == 1:
-            #     cld_data[i, j] = 3  # land clear
 
     return cld_data
 
